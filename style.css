@@ -1,0 +1,84 @@
+
+
+body{
+    background-color: #F7ECDE;
+
+}
+
+
+.bokmark-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.bokmark-heading h1{
+    font-family: "Pacifico", cursive;
+    font-size: 50px;
+    font-weight: 500;
+    color:  rgb(53, 46, 40);
+    z-index: 3;
+    cursor: default;
+}
+.underlined{
+    position: absolute;
+   
+    bottom: 10px;
+    background-color: orange;
+    height: 20px;
+    width: 262px;
+   
+
+}
+.bokmark-heading h1:hover + .underlined{
+     height:40px ;
+    transition: all ease .4s;
+}
+
+.dotted{
+    height: 30px;
+    border-bottom: black dotted 2px;
+}
+.text{
+  
+   width: 392px;
+  
+   
+}
+.text h2{
+    font-family: "Righteous", sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    background-image: linear-gradient(90deg, green 0%, 45%,orange 100%);
+   -webkit-background-clip: text;
+   color: transparent;
+}
+.site-name-text{
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(33, 37, 41);
+}
+.site-data{
+    background-color: white;
+    margin-top: 30px;
+    margin-bottom: 200px;
+    height: 40px;
+}
+.site-updated-data{
+    background-color: white;
+    height: 40px;
+   
+}
+.form-control:focus{
+    border-color: orange;
+    box-shadow: 0 0 0 .25rem rgba(253, 189, 13, 0.25);;
+}
+#visit{
+    background-color: #9bb327;
+    color: white;
+}
+#visit:hover{
+    background-color: #8A9E23;
+
+}
